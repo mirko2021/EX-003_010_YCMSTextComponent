@@ -1,0 +1,42 @@
+DIFFERENT SOURCE 
+
+	Pohranjivanje u odrediste razlike sto ima u izvornom DS, a nema u odredisnom. 
+
+DIFERENT DESTINATION 
+
+	Brisanje onog sto ima u izvornom a i u odredisnom iz odredista. 
+	
+
+DIFERENT SYMETRIC 
+
+	Unija onog sto nije zajednicko za odrediste i izvoriste. I pospremanje u 
+	odrediste. 
+	
+UNION DATA 
+
+	Unija svega sto ima i u odredisti i u izvoristu i spremanje u odrediste. 
+
+INTERSECT DATA 
+
+	Presjek svega sto ima i u odredistu i izvoristu i spremanje u odrediste. 
+	
+TRANSFER DATA 
+
+	Brisanje svega u odredistu i spremanje podataka iz izvorista. 
+	
+SYNCHRONIZATION 
+
+	Usaglasavanje podataka na izvoristu i na odredistu, da postoje isti.
+	Prvo se citaju podaci sa odredista, ukoliko imaju presjek, a razne 
+	podatke na izvoristu, podaci ostaju na oba mjesta kakvi su. Ako ne 
+	postoje na oba mjesta, kopiraju se sa mjesta gdje postoje.  
+	
+SYNCHRONIZATION SOURCE 
+	
+	Kao i predhodno, ali ovde elementi koji postoje dobijaju podatke izvorista
+	i na odredistu. 
+	
+SYNCHRONIZATION DESTINATION
+
+	Kao i predhodno, ali ovde elementi koji postoje dobijaju podatke odredista
+	i na izvoristu. 
